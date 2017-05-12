@@ -85,10 +85,18 @@ ul li:hover ul li {
 /*Spacing for Rows*/
 
 #row1 {
-  margin-top: 200px;
+  margin-top: 160px;
 }
 
 /*Column Format*/
+
+#row_checklist {
+  float: left;
+  font-size: 18px;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 12px;
+}
 
 #row1_col1 {
   float: left;
@@ -96,7 +104,6 @@ ul li:hover ul li {
   padding: 14px;
   border: 2px solid black;
   margin: 12px;
-  /*margin-left: 50px;*/
 }
 
 #row1_col2 {
@@ -131,6 +138,12 @@ ul li:hover ul li {
   text-decoration: none;
   color: #20c3f9;
 }
+
+#row_checklist a {
+  text-decoration: none;
+  color: #20c3f9;
+}
+
 
 /*Well color and transparency*/
 
