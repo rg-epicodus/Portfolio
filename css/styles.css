@@ -1,3 +1,5 @@
+/*Background Image*/
+
 body {
   background-image: url('../img/bg_cover.jpg');
   background-position: center center;
@@ -5,6 +7,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+/*Text Formatting for main content*/
 
 body {
   font-family: 'Arial', sans-serif;
@@ -14,12 +18,32 @@ body {
   padding-right: 20px;
 }
 
-@media (max-width: 767px) {
+/*Media Query Resizing Information*/
+@media (max-width: 575px) {
+  body {
+    background-image: url('../img/mobile_bg.jpg');
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
     body {
       background-image: url('../img/mobile_bg.jpg');
     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
 
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/*Navigation Bar styling*/
 
 ul {
   margin: 0px;
@@ -58,14 +82,58 @@ ul li:hover ul li {
   display: block;
 }
 
+/*Spacing for Rows*/
+
 #row1 {
   margin-top: 200px;
 }
 
+/*Column Format*/
+
 #row1_col1 {
   float: left;
+  font-size: 18px;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 12px;
+  /*margin-left: 50px;*/
 }
 
 #row1_col2 {
-  float: right;
+  float: left;
+  font-size: 18px;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 12px;
+}
+
+#row1_col3 {
+  float: left;
+  font-size: 18px;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 12px;
+}
+
+/*Link Format within columns*/
+
+#row1_col1 a {
+  text-decoration: none;
+  color: #20c3f9;
+}
+
+#row1_col2 a {
+  text-decoration: none;
+  color: #20c3f9;
+}
+
+#row1_col3 a {
+  text-decoration: none;
+  color: #20c3f9;
+}
+
+/*Well color and transparency*/
+
+.well {
+  background-color: rgba(128, 128, 128, 0.4);
 }
