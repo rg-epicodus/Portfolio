@@ -76,6 +76,7 @@ ul li a:hover {
 
 ul li ul li {
   display: none;
+  font-weight: bold;
 }
 
 ul li:hover ul li {
@@ -144,9 +145,21 @@ ul li:hover ul li {
   color: #20c3f9;
 }
 
-
 /*Well color and transparency*/
 
 .well {
   background-color: rgba(128, 128, 128, 0.4);
+}
+
+/* Carousel Styling */
+#myCarousel img {
+  max-height: 600px;
+}
+
+.carousel-inner {
+  margin-top: 160px;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
 }
