@@ -18,7 +18,7 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-_{The web site for this project is located at: https://rg-epicodus.github.io/Portfolio}_
+_{The web site for this project is located at: https://rg-epicodus.github.io/Portfolio }_
 
 ### License
 

@@ -18,6 +18,15 @@ body {
   padding-right: 20px;
 }
 
+#row2_aboutme p {
+  font-family: fantasy;
+  font-size: 28px;
+}
+
+.row p span {
+  color: red;
+}
+
 /*Media Query Resizing Information*/
 @media (max-width: 575px) {
   body {
@@ -121,6 +130,30 @@ ul li:hover ul li {
   padding: 14px;
   border: 2px solid black;
   margin: 12px;
+}
+
+#contact_form {
+  float: left;
+  width: 800px;
+  margin-top: 160px;
+}
+
+#row1_aboutme {
+  float: left;
+  font-size: 18px;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 12px;
+  margin-top: 160px;
+}
+
+#row2_aboutme {
+  float: left;
+  font-size: 18px;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 12px;
+  margin-top: 10px;
 }
 
 /*Link Format within columns*/
